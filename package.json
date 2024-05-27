@@ -1,0 +1,24 @@
+{
+  "name": "sacra-game-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/bot.js"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "ethereumjs-util": "^7.1.5",
+    "knex": "^3.1.0",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "@types/ethereumjs-util": "^6.1.0",
+    "@types/node-telegram-bot-api": "^0.64.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
